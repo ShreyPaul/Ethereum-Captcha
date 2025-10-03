@@ -47,10 +47,3 @@ This project implements a mining pool server with a mechanism to detect and pena
 5. **Penalty Enforcement:**  
    - The server checks quiz deadlines.
    - If a miner fails to solve the quiz in time, the server calls `applyPenalty` on the contract, incrementing their penalty count.
-- SelfishMinerQuiz.sol  
-- server.js  
-- miner-honest.js  
-- miner-malicious.js  
-- deploy.js  
-- update_env.js  
-- .env
